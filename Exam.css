@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif; background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    background-image:url("save.jpg");
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    section {
+    padding: 20px; margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    }
+    footer {
+    background-color:burlywood;
+    text-align: center;
+    padding: 10px;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      /* Styling the section using margin, padding, border, and width */
+      .info-box {
+        width: 60%;              /* Content width */
+        margin: 30px auto;       /* Space outside the box (top-bottom, left-right center) */
+        padding: 20px;           /* Space inside the box (between content and border) */
+        border: 2px solid #333;  /* Visible border around the box */
+        background-color: #fff;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      }
+      
