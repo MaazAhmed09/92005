@@ -1,33 +1,38 @@
-
+/* Styling the body using Background colour, font- family */
 body {
     font-family: Arial, sans-serif; background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     }
+    /* Styling the header using Background image, color, padding and text-align */
     header {
     background-image:url("save.jpg");
     color: white;
     padding: 20px;
     text-align: center;
     }
+    /* Styling the paragrphs using fontsize */
     p {
       font-size: 20px;
     }
+    /* Styling the section for main content using Background colour, padding, margin, and border radius */
     section {
     padding: 20px; margin: 10px;
     background-color: white;
     border-radius: 8px;
     }
+    /* Styling the footer using Background colour, text align, padding */
     footer {
     background-color:burlywood;
     text-align: center;
     padding: 10px;
     }
+    /* Styling the section for navbar using Background colour, overflow */
     .topnav {
         overflow: hidden;
         background-color: #333;
       }
-      
+      /* Styling the section for navbar using float, colour, text align, padding, text decoration and font size */
       .topnav a {
         float: left;
         color: #f2f2f2;
@@ -36,7 +41,7 @@ body {
         text-decoration: none;
         font-size: 17px;
       }
-      
+      /* Styling the section for navbar using Background colour, colour */
       .topnav a:hover {
         background-color: #ddd;
         color: black;
@@ -55,5 +60,6 @@ body {
         border: 2px solid #333;  /* Visible border around the box */
         background-color: #fff;
         box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        text-align: center;
       }
       
